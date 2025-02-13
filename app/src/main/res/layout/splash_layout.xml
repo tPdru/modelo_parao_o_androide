@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#1E9ED8"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -12,13 +13,16 @@
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         android:src="@drawable/logo" />
 
     <com.google.android.material.progressindicator.LinearProgressIndicator
         android:layout_width="250dp"
         android:layout_height="wrap_content"
+        app:indicatorColor="#F64343"
+        app:trackColor="#D0A0A0"
         android:layout_gravity="center"
+        android:indeterminate="true"
         android:layout_marginTop="15dp" />
 
 
