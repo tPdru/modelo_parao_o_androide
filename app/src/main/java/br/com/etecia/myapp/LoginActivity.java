@@ -63,5 +63,13 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        btn_criar_conta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CadastrarUsuarioActivity.class));
+                finish();
+            }
+        });
+
     }
 }
